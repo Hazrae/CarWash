@@ -2,11 +2,17 @@
 
 namespace CarWash
 {
+
+    
+
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Voiture v = new Voiture("ERH 963");
+         
+            CW.Traiter(v);
+            
         }
     }
 }

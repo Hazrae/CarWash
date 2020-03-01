@@ -6,5 +6,15 @@ namespace CarWash
 {
     class Voiture
     {
+        public string Plaque {get;}
+
+
+
+
+        public Voiture(string plaque)
+        {
+            Plaque = plaque;
+        }
+
     }
 }
