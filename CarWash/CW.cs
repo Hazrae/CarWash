@@ -6,11 +6,11 @@ using System.Text;
 namespace CarWash
  
 {
-    delegate void traitement(Voiture v);
+    
 
     class CW
     {
-        public static void Preparer(Voiture v)
+        private static void Preparer(Voiture v)
         {
             Console.WriteLine("Je prépare la voiture : " +v.Plaque);
         }

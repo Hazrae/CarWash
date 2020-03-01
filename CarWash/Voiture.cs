@@ -14,6 +14,7 @@ namespace CarWash
         public Voiture(string plaque)
         {
             Plaque = plaque;
+            
         }
 
     }
